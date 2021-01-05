@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Portfolio Homepage</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper active-nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="experience.html">Experience</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="projects.html">Projects</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="art.html">Art portfolio</a>
+        </div>
+
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          NICOLE LIN
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="two-column-wrapper">
+        <div class="profile-image-wrapper">
+          <img src="images/nyc.jpeg" alt=""/>
+        </div>
+
+        <div class="profile-content-wrapper">
+          <h1 style="color:tan">Hi, thank you for visiting my site.</h1>
+          <p>My name is Nicole Lin, and I am a current student studying Computer Science at Columbia University in the City of
+            New York. I am passionate about leveraging technology for social impact, and am a student by day, entrepreneur at night.
+          </p>
+
+          <p>Outside of coding, I'm a big fan of ...</p>
+          <ul style="list-style-type:none;">
+            <li>Open water swimming</li>
+            <li>Reading - about startups and their journey</li>
+            <li>Traveling - I have currently visited 38 states and 6 countries</li>
+            <li>Medical volunteering - especially in data analytics and the ER</li>
+            <li>Art - portfolio linked in navigation bar</li>
+          </ul>
+          <br>
+          <br>
+          <div>
+            <a href="https://github.com/nlin0907" target="_blank">
+              <img class="social-icons" src="images/github.png">
+            </a>
+            <a href="https://www.linkedin.com/in/nicole-lin-cs/" target="_blank">
+              <img class="social-icons" src="images/linkedin.png">
+            </a>
+            <a href="https://www.instagram.com/nicole.s.lin/" target="_blank">
+              <img class="social-icons" src="images/ig2.png">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script>
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+
+portfolioItems.forEach(portfolioItem => {
+  portfolioItem.addEventListener('mouseover', () => {
+    console.log(portfolioItem.childNodes[1].classList)
+    portfolioItem.childNodes[1].classList.add('image-blur');
+  });
+
+  portfolioItem.addEventListener('mouseout', () => {
+    console.log(portfolioItem.childNodes[1].classList)
+    portfolioItem.childNodes[1].classList.remove('image-blur');
+  });
+});
+</script>
+
+</html>

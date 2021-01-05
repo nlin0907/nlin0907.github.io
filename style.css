@@ -1,0 +1,92 @@
+logo {
+    font-size: 38px;
+  font-family: 'Megrim', cursive;
+  }
+
+  .header {
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+  }
+
+
+.img-magnifier-container {
+  position:relative;
+}
+
+img {
+  width: 100%;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+/* image glass */
+/* ======================= */
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+}
+
+
+/*
+.btn {
+  width: 100px;
+  height: 50px;
+  position: relative;
+}
+ */
+
+
+  .footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }
+
+  .sticky-top {
+    width: 100%;
+  }
+
+/* image portfolio gallery */
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.col-4 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .col-4 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.big {
+  text-align: center;
+}
+
+.slidebtn {
+  position: absolute;
+  padding: 10px;
+}
