@@ -1,0 +1,94 @@
+
+NICOLE LIN
+Aspiring Software Engineer
+
+5653 Otley Place, Alpharetta, GA 30022
+(678) 409-7696
+nsl2126@columbia.edu
+WWW : nlin0907.github.io
+LinkedIn : linkedin.com/nicole-lin-cs/
+
+Languages
+
+Java, Python, C, mySQL, Python, HTML, CSS, Javascript
+
+Professional Summary
+
+Inquisitive, energetic computer science student skilled in leadership, with a strong foundation in math and programming logic. Seeking to leverage development skills with a focus on collaboration, communication, passion, and creativity. Interests in open water swimming, traveling, and reading about start-ups and their journey.
+
+Work History
+
+September 2020 to Current
+Columbia University Medical Center New York City, NY
+Data Analyst    
+
+Identify genetic factors involved in various forms of hereditary diseases, including neurodevelopmental disorders, hearing loss, and skeletal disorders
+Synthesized current medical data to produce reports and polished presentations, highlighting findings and recommending changes.
+Track molecular causes by integrating various technologies, including genomics, transcriptomics, and epigenomics
+Python, JupyterNotebook, Conifer, Galaxy, Docker, Git, Bash
+Developed database objects, including tables, views and materialized views using SQL.
+Coordinated statistical data analysis, design, and information flow.
+Built library of models and reusable knowledge-base assets to produce consistent and streamlined results.
+
+May 2019 to August 2019
+Georgia Tech Research Institute Atlanta, GA
+Paid Intern    
+
+Developed, prototyped and tested quality, performance and compliance of different components and systems.
+Synthesized lead selenide quantum dots and aerosol jet-printed infrared displays
+Publication: A Robust Cation-Exchange Route to Stable Infrared-Emitting Chemical-Composition-Gradient Quantum Dots, Nanoscale
+
+January 2019 to August 2019
+Northern Illinois University DeKalb, IL
+Research Intern    
+
+Performed anodization of titanium leading to TiO2 for biomedical applications not limited to bone regeneration
+Learned the deposition of iron on the surface of TiO2 nanotubes
+Publication: Surface Treatment of Titanium by Anodization and Iron Deposition; Mechanical and Biological Properties, Journal of Materials Research
+
+August 2018 to May 2019
+MyGenomics Atlanta, GA
+Bioinformatics Software Intern    
+
+Analyzed the hereditary risk for the development of cancers and diseases such as Parkinson's, Alzheimer's, and Hypocholesterolemia through manipulating and managing data with R, python, and UNIX tools
+Maintained database of patient information through mySQL (database management software), constructed entity relationship diagrams (ER Diagrams), and queried relational databases
+Detected mutations through DNA sequencing and fragment analysis with illumina
+Manage large dataset collections including analytical results and data quality
+Interpreted results of routine tests of DNA extraction
+
+August 2018 to January 2019
+Rutgers University Newark, NJ
+Research Intern    
+
+Researched the 3D topography, mechanical properties, adhesion, chemical informations by functionalizing probe tip, electrical conductivity, thermal conductivity, electrostatic forces, and magnetic forces of different materials
+Performed Atomic Force Microscopy measurements on a soft Polydimethylsiloxane (PDMS) sample and a PDMS-epoxy sample to acquire their nanomechanical properties
+Publication: Rapid Broadband Discrete Nanomechanical Mapping of Soft Samples on Atomic Force Microscope, Nanotechnology
+
+Education
+
+Columbia University In The City Of New York New York, NY
+Bachelor of Science Computer Science And Programming 
+
+Projects
+
+Personal Website:
+
+A personal portfolio website with live demos of my other projects
+Technologies used: Javascript, CSS, HTML, JQuery
+
+What to eat?:
+
+Developing multimodal ML pipeline that identifies locations of closest restaurants/fast food joints based on a group's preference
+Data-intensive web application that utilizes Google Maps API and Atlanta restaurant review data
+Technologies used: mySQL, API, Node.js, JavaScript, HTML, CSS
+
+eCommerce Revenue Calculators:
+
+Amazon, eBay, Poshmark, Depop, Mercari Revenue Calculators
+Technologies used: Javascript, CSS, HTML
+
+Wine-classifier:
+
+Classifying wines by quality using basic ML algorithms from the Portuguese wines of the Vinho Verde DOC
+Technologies used: Python
+
