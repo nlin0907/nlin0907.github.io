@@ -165,3 +165,31 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+.box {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 10%);
+  width: 80%;
+  height: 70%;
+  padding: 20px;
+  background: tan;
+  color: white;
+  text-align: left;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+.center1 {
+  margin: auto;
+  width: 15%;
+  padding: 50px;
+}
