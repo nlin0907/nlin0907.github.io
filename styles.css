@@ -98,7 +98,7 @@ body {
 }
 
 .img-text-wrapper:hover .subtitle-title {
-  color: brown;
+  color: wheat;
   font-weight: 600;
 }
 
@@ -111,11 +111,6 @@ body {
 .img-text-wrapper:hover .subtitle{
   color: brown
   font-weight: 300
-}
-
-.logo-wrapper img {
-  width: 50%;
-  margin-bottom: 20px;
 }
 
 .two-column-wrapper {
@@ -193,3 +188,27 @@ body {
   width: 15%;
   padding: 50px;
 }
+
+a.y {
+ width: 280px;
+ height: 42px;
+ color: white;
+ padding: 10px;
+ text-decoration:none;
+ display: block;
+ font-weight: bold;
+ background-image : url(images/b1.png);
+ background-repeat: no-repeat;
+ }
+
+ a.y:hover {
+ width: 280px;
+ height: 42px;
+ color: skyblue;
+ padding: 10px;
+ font-weight: bold;
+ text-decoration:none;
+ display: block;
+ background-image : url(images/b2.png);
+ background-repeat: no-repeat;
+ }
