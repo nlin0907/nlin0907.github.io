@@ -1,74 +1,104 @@
 <!DOCTYPE html>
 <html lang='en'>
     <head>
-        <meta charset='UTF-8'>
-        <title>Portfolio Homepage</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
-    </head>
+
+        <title>Organic Chemistry Reactions</title>
+      </head>
 
     <body>
-        <div>
-            
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h4>Select Starting Material:</h4>
+                    <div class="col">
+                        <h6>Oxidation Level 4</h6>
+                            <button class="btn btn-secondary btn-sm">Carbon Dioxide</button>
+
+                        <h6>Oxidation Level 3</h6>
+                            <button class="btn btn-secondary btn-sm">Carboxylic Acid</button>
+                            <button class="btn btn-secondary btn-sm">Nitrile</button>
+                            <button class="btn btn-secondary btn-sm">Amide</button>
+                            <button class="btn btn-secondary btn-sm">Ester</button>
+                            <button class="btn btn-secondary btn-sm">Acyl Chloride</button>
+
+                        <h6>Oxidation Level 2</h6>
+                            <button class="btn btn-secondary btn-sm">Ketone</button>
+                            <button class="btn btn-secondary btn-sm">Aldehyde</button>
+                            <button class="btn btn-secondary btn-sm">Imine</button>
+
+                        <h6>Oxidation Level 1</h6>
+                            <button class="btn btn-secondary btn-sm">Alkene</button>
+                            <button class="btn btn-secondary btn-sm">1 Alcohol</button>
+                            <button class="btn btn-secondary btn-sm">2 Alcohol</button>
+                            <button class="btn btn-secondary btn-sm">3 Alcohol</button>
+                            <button class="btn btn-secondary btn-sm">1 Amine</button>
+                            <button class="btn btn-secondary btn-sm">2 Amine</button>
+                            
+                        <h6>Oxidation Level 0</h6>
+                            <button class="btn btn-secondary btn-sm">Alkane</button>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>Select Ending Material:</h4>
+                    <div class="col">
+                        <h6>Oxidation Level 4</h6>
+                            <!-- <button class="btn btn-secondary btn-sm">Carbon Dioxide</button> -->
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-secondary active btn-sm">
+                                  <input type="checkbox" checked autocomplete="off"> ACK
+                                </label>
+                              </div>
+
+                        <h6>Oxidation Level 3</h6>
+                            <button class="btn btn-secondary btn-sm">Carboxylic Acid</button>
+                            <button class="btn btn-secondary btn-sm">Nitrile</button>
+                            <button class="btn btn-secondary btn-sm">Amide</button>
+                            <button class="btn btn-secondary btn-sm">Ester</button>
+                            <button class="btn btn-secondary btn-sm">Acyl Chloride</button>
+
+                        <h6>Oxidation Level 2</h6>
+                            <button class="btn btn-secondary btn-sm">Ketone</button>
+                            <button class="btn btn-secondary btn-sm">Aldehyde</button>
+                            <button class="btn btn-secondary btn-sm">Imine</button>
+
+                        <h6>Oxidation Level 1</h6>
+                            <button class="btn btn-secondary btn-sm">Alkene</button>
+                            <button class="btn btn-secondary btn-sm">1 Alcohol</button>
+                            <button class="btn btn-secondary btn-sm">2 Alcohol</button>
+                            <button class="btn btn-secondary btn-sm">3 Alcohol</button>
+                            <button class="btn btn-secondary btn-sm">1 Amine</button>
+                            <button class="btn btn-secondary btn-sm">2 Amine</button>
+                            
+                        <h6>Oxidation Level 0</h6>
+                            <button class="btn btn-secondary btn-sm">Alkane</button>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+                <br>
+                <br>
+                <button class="btn btn-success">SUBMIT</button>
+            </div>
+            <div>
+
+            </div>
         </div>
-        <button>
-            Ketone
-        </button>
-        <button>
-            Carboxylic Acid
-        </button>
-        <button>
-            Acyl Chloride
-        </button>
-        <button>
-            Nitrile
-        </button>
-        <button>
-            Primary Amine
-        </button>
-        <button>
-            Secondary Amine
-        </button>
-        <button>
-            Amide
-        </button>
-        <button>
-            Ester
-        </button>
-        <button>
-            Ketone
-        </button>
-        <button>
-            Primary Alcohol
-        </button>
-        <button>
-            Secondary Alcohol
-        </button>
-        <button>
-            Teritary Alcohol
-        </button>
-        <button>
-            Alkene
-        </button>
-        <button>
-            Alkane
-        </button>
-        <button>
-            Epoxide
-        </button>
-        <button>
-            Aromatics
-        </button>
-        <button>
-            Ethers
-        </button>
-        <button>
-            Alkane
-        </button>
     </body>
 
     <script>
+        $().button('toggle')
     </script>
-
 
 </html>
